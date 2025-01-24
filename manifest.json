@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Tab Pauser",
+    "version": "1.0",
+    "description": "Pauses YouTube videos when the tab is inactive and resumes when active.",
+    "permissions": ["tabs", "activeTab", "scripting"],
+    "host_permissions": ["https://www.youtube.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "content_scripts": [
+      {
+        "matches": ["https://www.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
