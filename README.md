@@ -61,5 +61,5 @@ This extension requires the following permissions:
 - Provide options to configure the behavior (e.g., delay before pausing).
 
 ## License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License.
 
